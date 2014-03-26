@@ -112,7 +112,7 @@ def elt(eltType, numargs):
             xs = args[0]
         else:
             xs = args
-        return {'t': eltType, 'c': xs}
+        return {eltType: xs}
     return fun
 
 
